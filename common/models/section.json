@@ -9,16 +9,20 @@
     "name": {
       "type": "string",
       "required": true
-    },
-    "questions": {
-      "type": [
-        "string"
-      ],
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "questions": {
+      "type": "hasMany",
+      "model": "question",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "section"
+    }
+  },
   "acls": [],
   "methods": {}
 }

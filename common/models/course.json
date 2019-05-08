@@ -16,16 +16,19 @@
     "image": {
       "type": "string",
       "required": false
-    },
-    "modules": {
-      "type": [
-        "string"
-      ],
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "modules": {
+      "type": "hasMany",
+      "model": "module",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

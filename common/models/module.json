@@ -15,16 +15,20 @@
     },
     "image": {
       "type": "string"
-    },
-    "papers": {
-      "type": [
-        "string"
-      ],
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "papers": {
+      "type": "hasMany",
+      "model": "paper",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "module"
+    }
+  },
   "acls": [],
   "methods": {}
 }

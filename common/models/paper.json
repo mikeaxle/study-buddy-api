@@ -19,16 +19,20 @@
     },
     "image": {
       "type": "string"
-    },
-    "sections": {
-      "type": [
-        "string"
-      ],
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "sections": {
+      "type": "hasMany",
+      "model": "section",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "paper"
+    }
+  },
   "acls": [],
   "methods": {}
 }

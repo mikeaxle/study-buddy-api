@@ -69,7 +69,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "section": {
+      "type": "belongsTo",
+      "model": "section",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

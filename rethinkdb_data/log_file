@@ -1,0 +1,66 @@
+2019-05-09T00:08:29.073134000 0.212504s notice: Recursively removing directory /Users/michaellungu/Desktop/Works 2019/study-buddy-api/rethinkdb_data/tmp
+2019-05-09T00:08:29.079292000 0.218672s notice: Initializing directory /Users/michaellungu/Desktop/Works 2019/study-buddy-api/rethinkdb_data
+2019-05-09T00:08:29.080182000 0.219551s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/michaellungu/Desktop/Works 2019/study-buddy-api/rethinkdb_data' did not already exist or is empty.)
+2019-05-09T00:08:29.080656000 0.220025s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2019-05-09T00:08:29.094650000 0.234020s notice: Running on Darwin 18.6.0 x86_64
+2019-05-09T00:08:29.094737000 0.234105s notice: Loading data from directory /Users/michaellungu/Desktop/Works 2019/study-buddy-api/rethinkdb_data
+2019-05-09T00:08:29.422424000 0.561783s info: Automatically using cache size of 100 MB
+2019-05-09T00:08:29.422438000 0.561796s warn: Cache size does not leave much memory for server and query overhead (available memory: 471 MB).
+2019-05-09T00:08:29.422444000 0.561802s warn: Cache size is very low and may impact performance.
+2019-05-09T00:08:29.424136000 0.563495s notice: Listening for intracluster connections on port 29015
+2019-05-09T00:08:29.426537000 0.565895s notice: Listening for client driver connections on port 28015
+2019-05-09T00:08:29.426723000 0.566081s notice: Listening for administrative HTTP connections on port 8080
+2019-05-09T00:08:29.426727000 0.566085s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-05-09T00:08:29.426735000 0.566093s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-05-09T00:08:29.426738000 0.566096s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-05-09T00:08:29.426745000 0.566103s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-05-09T00:08:29.426752000 0.566110s notice: Server ready, "Michaels_MacBook_Air_2_local_9wl" 04555b63-2019-4f75-98bc-551c515145e6
+2019-05-09T00:13:08.299442000 279.430434s info: Table 7a73858f-2ff1-4760-801a-0d52d8fb83c4: Starting a new Raft election for term 1.
+2019-05-09T00:13:08.303280000 279.434273s info: Table 7a73858f-2ff1-4760-801a-0d52d8fb83c4: Added replica on this server.
+2019-05-09T00:13:08.331047000 279.462039s info: Table 7a73858f-2ff1-4760-801a-0d52d8fb83c4: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:13:12.574953000 283.705817s info: Table d8287600-8a85-40b0-ab04-4665d70046db: Starting a new Raft election for term 1.
+2019-05-09T00:13:12.575393000 283.706258s info: Table d8287600-8a85-40b0-ab04-4665d70046db: Added replica on this server.
+2019-05-09T00:13:12.613195000 283.744058s info: Table d8287600-8a85-40b0-ab04-4665d70046db: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:13:26.058284000 297.188744s info: Table 6ac24c56-4d34-4d52-bc02-567d09593ff6: Starting a new Raft election for term 1.
+2019-05-09T00:13:26.058515000 297.188975s info: Table 6ac24c56-4d34-4d52-bc02-567d09593ff6: Added replica on this server.
+2019-05-09T00:13:26.093459000 297.223918s info: Table 6ac24c56-4d34-4d52-bc02-567d09593ff6: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:13:32.170204000 303.300481s info: Table fdef5965-5abb-442f-a141-ba5598549a23: Starting a new Raft election for term 1.
+2019-05-09T00:13:32.170693000 303.300970s info: Table fdef5965-5abb-442f-a141-ba5598549a23: Added replica on this server.
+2019-05-09T00:13:32.207793000 303.338069s info: Table fdef5965-5abb-442f-a141-ba5598549a23: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:13:40.704751000 311.834772s info: Table a50d3bbf-5276-4739-852b-f1d08465fef0: Starting a new Raft election for term 1.
+2019-05-09T00:13:40.705402000 311.835422s info: Table a50d3bbf-5276-4739-852b-f1d08465fef0: Added replica on this server.
+2019-05-09T00:13:40.742122000 311.872141s info: Table a50d3bbf-5276-4739-852b-f1d08465fef0: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:13:43.964166000 315.094089s info: Table 3b839649-44a7-4e5d-86d0-7553aa6c2e9f: Starting a new Raft election for term 1.
+2019-05-09T00:13:43.964636000 315.094559s info: Table 3b839649-44a7-4e5d-86d0-7553aa6c2e9f: Added replica on this server.
+2019-05-09T00:13:43.992541000 315.122463s info: Table 3b839649-44a7-4e5d-86d0-7553aa6c2e9f: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:15:46.373527000 437.499778s info: Table bfac01ec-b816-42c0-ad02-f77b5f2f83b1: Starting a new Raft election for term 1.
+2019-05-09T00:15:46.373837000 437.500088s info: Table bfac01ec-b816-42c0-ad02-f77b5f2f83b1: Added replica on this server.
+2019-05-09T00:15:46.408360000 437.534610s info: Table bfac01ec-b816-42c0-ad02-f77b5f2f83b1: This server is Raft leader for term 1. Latest log index is 0.
+2019-05-09T00:41:27.821700000 0.218458s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2019-05-09T00:41:27.840660000 0.237411s notice: Running on Darwin 18.6.0 x86_64
+2019-05-09T00:41:27.840745000 0.237495s notice: Loading data from directory /Users/michaellungu/Desktop/Works 2019/study-buddy-api/rethinkdb_data
+2019-05-09T00:41:27.917359000 0.314107s info: Automatically using cache size of 100 MB
+2019-05-09T00:41:27.917372000 0.314120s warn: Cache size does not leave much memory for server and query overhead (available memory: 454 MB).
+2019-05-09T00:41:27.917381000 0.314128s warn: Cache size is very low and may impact performance.
+2019-05-09T00:41:27.920525000 0.317273s notice: Listening for intracluster connections on port 29015
+2019-05-09T00:41:28.115934000 0.512676s notice: Listening for client driver connections on port 28015
+2019-05-09T00:41:28.116232000 0.512974s notice: Listening for administrative HTTP connections on port 8080
+2019-05-09T00:41:28.116240000 0.512981s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-05-09T00:41:28.116321000 0.513063s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-05-09T00:41:28.116327000 0.513069s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-05-09T00:41:28.116332000 0.513074s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-05-09T00:41:28.116337000 0.513079s notice: Server ready, "Michaels_MacBook_Air_2_local_9wl" 04555b63-2019-4f75-98bc-551c515145e6
+2019-05-09T00:41:29.022092000 1.418807s info: Table 7a73858f-2ff1-4760-801a-0d52d8fb83c4: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.063715000 1.460429s info: Table 7a73858f-2ff1-4760-801a-0d52d8fb83c4: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.123854000 1.520566s info: Table 3b839649-44a7-4e5d-86d0-7553aa6c2e9f: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.147272000 1.543983s info: Table bfac01ec-b816-42c0-ad02-f77b5f2f83b1: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.195732000 1.592442s info: Table 3b839649-44a7-4e5d-86d0-7553aa6c2e9f: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.195822000 1.592532s info: Table bfac01ec-b816-42c0-ad02-f77b5f2f83b1: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.557063000 1.953762s info: Table 6ac24c56-4d34-4d52-bc02-567d09593ff6: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.587884000 1.984582s info: Table fdef5965-5abb-442f-a141-ba5598549a23: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.599362000 1.996060s info: Table 6ac24c56-4d34-4d52-bc02-567d09593ff6: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.638458000 2.035154s info: Table d8287600-8a85-40b0-ab04-4665d70046db: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.666063000 2.062759s info: Table fdef5965-5abb-442f-a141-ba5598549a23: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.718360000 2.115055s info: Table d8287600-8a85-40b0-ab04-4665d70046db: This server is Raft leader for term 2. Latest log index is 2.
+2019-05-09T00:41:29.778935000 2.175628s info: Table a50d3bbf-5276-4739-852b-f1d08465fef0: Starting a new Raft election for term 2.
+2019-05-09T00:41:29.842881000 2.239572s info: Table a50d3bbf-5276-4739-852b-f1d08465fef0: This server is Raft leader for term 2. Latest log index is 2.

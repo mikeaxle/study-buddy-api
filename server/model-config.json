@@ -14,27 +14,31 @@
     ]
   },
   "course": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
     "public": true
   },
   "institution": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
     "public": true
   },
   "module": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
     "public": true
   },
   "paper": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
     "public": true
   },
   "question": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
     "public": true
   },
   "section": {
-    "dataSource": null,
+    "dataSource": "rethinkdb",
+    "public": true
+  },
+  "profile": {
+    "dataSource": "rethinkdb",
     "public": true
   }
 }

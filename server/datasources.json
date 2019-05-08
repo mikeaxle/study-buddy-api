@@ -1,1 +1,7 @@
-{}
+{
+  "rethinkdb": {
+    "url": "http://localhost:28015/studybuddy",
+    "name": "rethinkdb",
+    "connector": "rethinkdb"
+  }
+}
