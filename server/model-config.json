@@ -12,5 +12,29 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "course": {
+    "dataSource": null,
+    "public": true
+  },
+  "institution": {
+    "dataSource": null,
+    "public": true
+  },
+  "module": {
+    "dataSource": null,
+    "public": true
+  },
+  "paper": {
+    "dataSource": null,
+    "public": true
+  },
+  "question": {
+    "dataSource": null,
+    "public": true
+  },
+  "section": {
+    "dataSource": null,
+    "public": true
   }
 }

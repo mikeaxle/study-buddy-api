@@ -1,0 +1,75 @@
+{
+  "name": "question",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "marks": {
+      "type": "number",
+      "required": true
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "string",
+      "required": true
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string",
+      "required": true
+    },
+    "b": {
+      "type": "string",
+      "required": true
+    },
+    "c": {
+      "type": "string"
+    },
+    "d": {
+      "type": "string"
+    },
+    "questionImage": {
+      "type": "string"
+    },
+    "answerImage": {
+      "type": "string"
+    },
+    "explanationImage": {
+      "type": "string"
+    },
+    "aImage": {
+      "type": "string"
+    },
+    "bImage": {
+      "type": "string"
+    },
+    "cImage": {
+      "type": "string"
+    },
+    "dImage": {
+      "type": "string"
+    },
+    "question2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
