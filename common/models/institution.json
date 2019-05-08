@@ -26,9 +26,7 @@
       "type": "hasMany",
       "model": "course",
       "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
+      "through": ""
     }
   },
   "acls": [],

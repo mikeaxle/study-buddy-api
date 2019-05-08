@@ -17,10 +17,13 @@
       "type": "hasMany",
       "model": "question",
       "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "section"
+      "through": ""
+    },
+    "paper": {
+      "type": "belongsTo",
+      "model": "paper",
+      "foreignKey": "",
+      "through": ""
     }
   },
   "acls": [],

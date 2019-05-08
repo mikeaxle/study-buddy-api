@@ -24,9 +24,13 @@
       "type": "hasMany",
       "model": "module",
       "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
+      "through": ""
+    },
+    "institution": {
+      "type": "belongsTo",
+      "model": "institution",
+      "foreignKey": "",
+      "through": ""
     }
   },
   "acls": [],

@@ -31,7 +31,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "wallets": {
+      "type": "hasOne",
+      "model": "wallet",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -1,0 +1,32 @@
+{
+  "name": "wallet",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "balance": {
+      "type": "number",
+      "required": true
+    },
+    "privateKey": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "profile": {
+      "type": "belongsTo",
+      "model": "profile",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

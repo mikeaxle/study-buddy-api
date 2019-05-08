@@ -23,9 +23,12 @@
       "type": "hasMany",
       "model": "paper",
       "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      },
+      "through": ""
+    },
+    "course": {
+      "type": "belongsTo",
+      "model": "course",
+      "foreignKey": "",
       "through": "module"
     }
   },

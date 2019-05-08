@@ -40,5 +40,9 @@
   "profile": {
     "dataSource": "rethinkdb",
     "public": true
+  },
+  "wallet": {
+    "dataSource": "rethinkdb",
+    "public": true
   }
 }

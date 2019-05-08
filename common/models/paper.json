@@ -27,10 +27,13 @@
       "type": "hasMany",
       "model": "section",
       "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      },
-      "through": "paper"
+      "through": ""
+    },
+    "module": {
+      "type": "belongsTo",
+      "model": "module",
+      "foreignKey": "",
+      "through": ""
     }
   },
   "acls": [],
