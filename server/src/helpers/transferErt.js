@@ -7,7 +7,7 @@ const transferErt = async (tx) => {
   let success
   try {
     // crete connection to rabbitmq and sent message
-    await amqp.connect('amqp://ffoivcwp:GL-ZgSXvdJJ_rdWPRjoR1V6ojn1oh9Sn@buck.rmq.cloudamqp.com/ffoivcwp', function (err, conn) {
+    await amqp.connect('amqp://hcgxmtfu:nf9Nu-SRihfotW_GUov49SlylZbapDn5@crane.rmq.cloudamqp.com/hcgxmtfu', function (err, conn) {
       // create channel
       conn.createChannel(function (err, ch) {
 
