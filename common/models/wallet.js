@@ -31,6 +31,7 @@ module.exports = function (Wallet) {
         path: '/transactionlist',
         verb: 'get',
       },
+      description: 'Get transaction list for address',
       accepts: {
         arg: 'address',
         type: 'string',
@@ -66,6 +67,7 @@ module.exports = function (Wallet) {
         path: '/balanceof',
         verb: 'get',
       },
+      description: 'Get balance list for address',
       accepts: {
         arg: 'address',
         type: 'string',
@@ -102,6 +104,7 @@ module.exports = function (Wallet) {
         path: '/sendertViaSignature',
         verb: 'post',
       },
+      description: 'Send transaction as a delegate',
       accepts: {
         arg: 'tx',
         type: 'object',
@@ -132,6 +135,7 @@ module.exports = function (Wallet) {
         path: '/sendert',
         verb: 'post',
       },
+      description: 'Send transaction',
       accepts: {
         arg: 'tx',
         type: 'object',
