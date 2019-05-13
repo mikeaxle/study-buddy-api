@@ -167,7 +167,7 @@ module.exports = function (Wallet) {
 };
 
 async function getBalance(address) {
-  const res = await fetch(`http://52.47.144.119/balanceOf/${address}`);
+  const res = await fetch(`${ertApiUrl}/balanceOf/${address}`);
   const res_1 = await res.text();
   return (res_1);
 }

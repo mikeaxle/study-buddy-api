@@ -22,7 +22,7 @@ const transferErt = async (tx) => {
           persistent: true,
         });
 
-        console.log(`[x] Sent to tx queue: ${tx.amount}vnm from ${tx.from} to ${tx.to}`);
+        console.log(`[x] Sent to tx queue: ${tx.amount}ERT from ${tx.from} to ${tx.to}`);
       success = true;
       });
 
