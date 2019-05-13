@@ -1,7 +1,7 @@
 // 'use strict';
 // var amqp = require('amqplib/callback_api');
-let transferErt = require('../../server/src/helpers/transferErt  ')
-
+let transferErt = require('../../server/src/helpers/transferErt')
+ 
 // ERT API URL
 const ertApiUrl = 'http://3.18.80.117';
 

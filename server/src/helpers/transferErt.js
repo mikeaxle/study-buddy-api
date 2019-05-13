@@ -39,4 +39,4 @@ const transferErt = async (tx) => {
   return success
 }
 
-module.exports = transferVnm;
+module.exports = transferErt;
